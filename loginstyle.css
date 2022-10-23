@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+/* Logo */
+.navbar__logo {
+    width: 70px;
+}
+
+/* Navbar */
+#navbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px 26px 0px 26px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all var(--animation-duration) ease-in-out;
+}
+
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    background-color: #00fefe;
+}
+
+.aa {
+    background-image: url(imgs/login/login.jpg);
+}
+#navbar {
+    color: white;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: center;
+}
+
+.navbar__menu {
+    display: flex;
+}
+
+.navbar__menu__item {
+    padding: 8px 12px;
+    margin: 0 4px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    color: white;
+}
+
+.aa h2 {
+    text-align: center;
+    color: white;
+    
+}
+
+.form__forget a {
+    color: black;
+}
+
+/* Footer */
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 15px 30px;
+}
